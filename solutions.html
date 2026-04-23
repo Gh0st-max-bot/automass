@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solutions - Automas</title>
+  <link rel="stylesheet" href="automas.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Automas</div>
+    <nav class="nav-links">
+      <a href="automas.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Products <span class="arrow">▼</span></button>
+        <div class="dropdown-content">
+          <a href="products.html">All Products</a>
+          <a href="products.html#software">Software</a>
+          <a href="products.html#hardware">Hardware</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Solutions <span class="arrow">▼</span></button>
+        <div class="dropdown-content">
+          <a href="solutions.html">By Industry</a>
+          <a href="solutions.html#enterprise">Enterprise</a>
+        </div>
+      </div>
+      <a href="resources.html">Resources</a>
+      <a href="education.html">Education</a>
+    </nav>
+  </header>
+
+  <div class="content">
+    <aside class="sidebar">
+      <h3>Industries</h3>
+      <input type="text" class="search-box" placeholder="Search solutions...">
+      <ul>
+        <li><a href="#enterprise">Enterprise</a></li>
+        <li><a href="#healthcare">Healthcare</a></li>
+        <li><a href="#retail">Retail</a></li>
+      </ul>
+    </aside>
+
+    <main class="articles">
+      <article id="enterprise">
+        <span class="tag">Business</span>
+        <h2>Enterprise Integration</h2>
+        <p>Connect your legacy systems with modern AI. We build bridges between mainframes and cloud architectures to revitalize your data infrastructure. Our middleware solutions ensure data flows seamlessly between your ERP, CRM, and the Automas AI Core. By breaking down data silos, we enable cross-departmental insights that drive efficiency and reduce administrative overhead. Transform your rigid legacy tech stack into an agile, data-driven engine.</p>
+        <button class="read-btn">Read More →</button>
+      </article>
+
+      <article id="healthcare" class="featured">
+        <span class="tag">Medical</span>
+        <h2>Automated Diagnostics</h2>
+        <p>Speed up patient processing with AI-assisted triage and preliminary diagnostic tools. Reduce waiting times and improve accuracy in clinical settings. Our algorithms analyze medical imaging (X-rays, MRIs) to flag potential anomalies for radiologist review, significantly speeding up diagnosis times. Fully HIPAA-compliant, our system ensures patient data privacy while delivering life-saving speed and precision in emergency environments.</p>
+        <button class="read-btn">Read More →</button>
+      </article>
+
+      <article id="retail">
+        <span class="tag">Commerce</span>
+        <h2>Smart Inventory</h2>
+        <p>Using computer vision, our systems track shelf stock in real-time, automatically ordering replacements and identifying purchasing trends. Cameras installed in shelving units monitor product levels and detect misplacements. The system integrates with your supply chain management software to predict stockouts before they happen, optimizing inventory levels and reducing shrinkage by an average of 15% in the first year.</p>
+        <button class="read-btn">Read More →</button>
+      </article>
+    </main>
+  </div>
+
+  <script src="automas.js"></script>
+</body>
+</html>

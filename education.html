@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education - Automas</title>
+  <link rel="stylesheet" href="automas.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Automas</div>
+    <nav class="nav-links">
+      <a href="automas.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Products <span class="arrow">▼</span></button>
+        <div class="dropdown-content">
+          <a href="products.html">All Products</a>
+          <a href="products.html#software">Software</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Solutions <span class="arrow">▼</span></button>
+        <div class="dropdown-content">
+          <a href="solutions.html">By Industry</a>
+          <a href="solutions.html#enterprise">Enterprise</a>
+        </div>
+      </div>
+      <a href="resources.html">Resources</a>
+      <a href="education.html" class="active">Education</a>
+    </nav>
+  </header>
+
+  <div class="content">
+    <aside class="sidebar">
+      <h3>Learning Path</h3>
+      <input type="text" class="search-box" placeholder="Find courses...">
+      <ul>
+        <li><a href="#basics">Basics</a></li>
+        <li><a href="#advanced">Advanced AI</a></li>
+        <li><a href="#cert">Certification</a></li>
+      </ul>
+    </aside>
+
+    <main class="articles">
+      <article id="basics">
+        <span class="tag">Beginner</span>
+        <h2>Intro to Automation</h2>
+        <p>A 4-week course designed for non-technical managers. Learn the vocabulary and concepts necessary to lead automation projects.</p>
+        <button class="read-btn">Read More →</button>
+      </article>
+
+      <article id="advanced" class="featured">
+        <span class="tag">Expert</span>
+        <h2>Deep Learning Architectures</h2>
+        <p>Dive deep into CNNs, RNNs, and Transformers. Build your own neural networks from scratch using Automas Core libraries.</p>
+        <button class="read-btn">Read More →</button>
+      </article>
+
+      <article id="cert">
+        <span class="tag">Career</span>
+        <h2>Certified Developer Exam</h2>
+        <p>Validate your skills with our industry-recognized certification. Includes a proctored exam and a digital badge for your LinkedIn profile.</p>
+        <button class="read-btn">Read More →</button>
+      </article>
+    </main>
+  </div>
+
+  <script src="automas.js"></script>
+</body>
+</html>

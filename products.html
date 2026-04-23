@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Automas</title>
+  <link rel="stylesheet" href="automas.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Automas</div>
+    <nav class="nav-links">
+      <a href="automas.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Products <span class="arrow">▼</span></button>
+        <div class="dropdown-content">
+          <a href="products.html">All Products</a>
+          <a href="products.html#software">Software</a>
+          <a href="products.html#hardware">Hardware</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Solutions <span class="arrow">▼</span></button>
+        <div class="dropdown-content">
+          <a href="solutions.html">By Industry</a>
+          <a href="solutions.html#enterprise">Enterprise</a>
+        </div>
+      </div>
+      <a href="resources.html">Resources</a>
+      <a href="education.html">Education</a>
+    </nav>
+  </header>
+
+  <div class="content">
+    <aside class="sidebar">
+      <h3>Categories</h3>
+      <input type="text" class="search-box" placeholder="Search products...">
+      <ul>
+        <li><a href="#software">Software Suite</a></li>
+        <li><a href="#hardware">Robotics Hardware</a></li>
+        <li><a href="#cloud">Cloud Services</a></li>
+      </ul>
+    </aside>
+
+    <main class="articles">
+      <article id="software">
+        <span class="tag">Software</span>
+        <h2>AutoFlow OS</h2>
+        <p>The operating system for the modern factory. AutoFlow OS connects all your IoT devices into a single, manageable interface with real-time telemetry. It supports universal protocols like MQTT, OPC UA, and Modbus, ensuring compatibility with equipment from any manufacturer. With its drag-and-drop workflow builder, you can automate complex sequences without writing a single line of code, reducing setup time by up to 60%.</p>
+        <button class="read-btn">Read More →</button>
+      </article>
+
+      <article id="hardware" class="featured">
+        <span class="tag">Hardware</span>
+        <h2>Arm-X1 Manipulator</h2>
+        <p>A 6-axis industrial robotic arm with 0.01mm precision. Ideal for micro-assembly and delicate handling tasks. Comes with force-feedback sensors that allow it to "feel" the components it handles, preventing damage to fragile parts. The Arm-X1 features a payload capacity of 5kg and a reach of 850mm, making it a versatile addition to any assembly line. Its carbon-fiber construction ensures speed without sacrificing durability.</p>
+        <button class="read-btn">Read More →</button>
+      </article>
+
+      <article id="cloud">
+        <span class="tag">Cloud</span>
+        <h2>Automas Cloud</h2>
+        <p>Scalable processing power on demand. Offload your heavy AI training tasks to our distributed cloud network and pay only for the compute you use. Our infrastructure is secured with military-grade encryption and offers 99.99% uptime SLAs. Whether you are training a computer vision model or running complex simulations, Automas Cloud scales elastic resources instantly to meet your workload spikes.</p>
+        <button class="read-btn">Read More →</button>
+      </article>
+      
+      <article id="drone">
+        <span class="tag">Hardware</span>
+        <h2>Site-Survey Drone</h2>
+        <p>Autonomous drones for construction and agricultural surveying. Maps terrain in 3D and analyzes crop health using spectral imaging. These drones are equipped with LiDAR and multispectral cameras to generate high-resolution topographical maps. With a battery life of 45 minutes and advanced obstacle avoidance systems, they can cover large areas autonomously, uploading data directly to the AutoFlow platform for processing.</p>
+        <button class="read-btn">Read More →</button>
+      </article>
+    </main>
+  </div>
+
+  <script src="automas.js"></script>
+</body>
+</html>
